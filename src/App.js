@@ -57,8 +57,4 @@ export class App extends React.Component {
   }
 }
 
-// Components
-//  -> functional based
-//  -> class based
-
 export default App;
