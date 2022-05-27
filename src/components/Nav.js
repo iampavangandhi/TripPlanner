@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 export const Nav = () => {
   return (
     <nav className="nav">
-      <Link to="/">
+      <Link to="/" aria-label="Home">
         <FaHome />
       </Link>
-      <Link to="/add">
+      <Link to="/add" aria-label="Add Trip">
         <FaCalendarDay />
       </Link>
-      <Link to="/list">
+      <Link to="/list" aria-label="Trip List">
         <FaList />
       </Link>
     </nav>

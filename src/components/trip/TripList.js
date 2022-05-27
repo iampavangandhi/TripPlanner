@@ -15,7 +15,7 @@ export const TripList = ({ trips }) => {
         </thead>
         <tbody>
           {trips.map((trip) => (
-            <Trip {...trip} />
+            <Trip key={`k-${Math.random()}`} {...trip} />
           ))}
         </tbody>
       </table>
