@@ -17,12 +17,9 @@ export const AddTrip = ({ AddNewTrip }) => {
       <form onSubmit={submit} className="form black-container">
         <label>
           <h3>Add a trip</h3>
-          <br />
-          <br />
-          <br />
         </label>
         <label>
-          Date: <br />
+          Date:
           <input
             id="date"
             type="date"
@@ -31,7 +28,7 @@ export const AddTrip = ({ AddNewTrip }) => {
           />
         </label>
         <label>
-          Place: <br />
+          Place:
           <input
             id="date"
             type="text"
@@ -40,7 +37,7 @@ export const AddTrip = ({ AddNewTrip }) => {
           />
         </label>
         <label>
-          Type: <br />
+          Type:
           <select ref={(input) => (type = input)}>
             <option value="Trek">Trek</option>
             <option value="Club">Club</option>
